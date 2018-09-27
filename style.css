@@ -33,7 +33,7 @@ body {
   height: 5rem;
   background: #424B54;
   margin-left: 2.5rem;
-  margin-top: 1.9rem; }
+  margin-top: 2rem; }
   .hair:before, .hair:after {
     content: '';
     position: absolute;
@@ -64,5 +64,37 @@ body {
   border-radius: 100%;
   margin-left: 2.9rem;
   margin-top: 3.5rem; }
+  .face:before, .face:after {
+    content: '';
+    position: absolute;
+    background: #F0BEAF;
+    height: 1.1rem;
+    width: .4rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; }
+  .face:before {
+    margin-top: 2rem;
+    margin-left: -.2rem; }
+  .face:after {
+    margin-left: 4.3rem;
+    margin-top: 2rem; }
+
+.eye {
+  position: absolute;
+  border-radius: 100%;
+  width: .5rem;
+  height: .5rem;
+  background: #424B54;
+  margin-top: 2.3rem;
+  margin-left: 1.2rem; }
+  .eye:before {
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    width: .5rem;
+    height: .5rem;
+    background: #424B54;
+    margin-left: 1.7rem; }
 
 /*# sourceMappingURL=style.css.map */
