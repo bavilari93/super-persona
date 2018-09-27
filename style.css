@@ -150,6 +150,40 @@ body {
   margin-left: 3.3rem;
   margin-top: 8.5rem; }
 
+.select {
+  border: 0.2rem solid #424B54;
+  border-radius: 100%;
+  background: transparent;
+  height: 4rem;
+  width: 4rem; }
+
+.nope {
+  margin-top: 17rem;
+  margin-left: 5rem; }
+  .nope:before, .nope:after {
+    content: '';
+    position: absolute;
+    height: 3rem;
+    width: .4rem;
+    background: red;
+    border-radius: 20px;
+    margin-left: 1.7rem;
+    margin-top: .5rem; }
+  .nope:before {
+    transform: rotate(40deg); }
+  .nope:after {
+    transform: rotate(-40deg); }
+
+.info {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 9.3rem;
+  margin-top: 17rem; }
+
+.like {
+  margin-top: 17rem;
+  margin-left: 11.6rem; }
+
 p {
   margin-left: 6.5rem;
   margin-top: 15rem; }
